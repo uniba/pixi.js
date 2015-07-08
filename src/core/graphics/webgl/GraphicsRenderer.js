@@ -514,7 +514,7 @@ GraphicsRenderer.prototype.buildCircle = function (graphicsData, webGLData)
         height = circleData.height;
     }
 
-    var totalSegs = 80;
+    var totalSegs = 40;
     var seg = (Math.PI * 2) / totalSegs ;
 
     var i = 0;
